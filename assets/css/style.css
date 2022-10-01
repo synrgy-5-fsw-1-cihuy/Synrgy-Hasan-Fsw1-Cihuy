@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.main {
+  box-sizing: border-box;
+  height: 450px;
+}
+
+li {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.card {
+  box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 16px;
+  width: 268px;
+  height: 196px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.mulai-sewa {
+  width: 1168px;
+  height: 326px;
+}
