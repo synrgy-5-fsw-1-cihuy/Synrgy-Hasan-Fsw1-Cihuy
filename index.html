@@ -24,7 +24,32 @@
   <body>
     <!-- header -->
     <header>
-      <nav class="navbar navbar-expand-lg" style="background-color: #cfd4ed">
+      <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #cfd4ed">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Binar</a>
+          <button class="navbar-toggler pl-sm-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Our Services</a>
+              </li><li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Why US</a>
+              </li><li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-outline-success" type="submit" style="background-color: #73ca5c; color: white">Register</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- <nav class="navbar navbar-expand-lg" style="background-color: #cfd4ed">
         <div class="container-fluid d-flex justify-content-start px-5">
           <a class="navbar-brand" href="#">Binar</a>
           <button
@@ -43,23 +68,24 @@
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
-              <a class="nav-link" href="#">Our Services</a>
-              <a class="nav-link" href="#">Why Us</a>
-              <a class="nav-link" href="#">Testimonial</a>
-              <a class="nav-link" href="#">FAQ</a>
-              <a class="nav-link btn" style="background-color: #73ca5c" href="#"
+              
+              <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Why Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Testimonial</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+              <li class="nav-item"><a class="nav-link btn" style="background-color: #73ca5c" href="#"
                 ><span style="color: white">Register</span></a
-              >
+              ></li>
             </div>
           </div>
         </div>
-      </nav>
+      </nav> -->
     </header>
 
     <!-- section main -->
     <section class="main" style="padding: 50px; background-color: #cfd4ed">
       <div class="row">
-        <div class="col-6" style="padding-top: 70px">
+        <div class="col-12 col-md-6" style="padding-top: 70px">
           <h3 class="fw-bold">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h3>
           <p>
             Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
@@ -70,24 +96,24 @@
             <span style="color: white">Mulai Sewa Mobil</span>
           </button>
         </div>
-        <div class="col-6">
-          <img
-            src="./assets/img/Mercedes Car EQC 300kW Edition - 900x598 1.png"
+        <div class="col-12 col-md-6">
+          <img class="img-main"
+            src="./assets/img/car.svg"
             style="
-              background-image: url(./assets/img/bg.png);
-              background-repeat: no-repeat;
+              /* background-image: url(./assets/img/bg.png); */
+              /* background-repeat: no-repeat; */
             "
           />
         </div>
       </div>
     </section>
     <!-- section why-us -->
-    <section class="why-us" style="padding: 100px">
+    <section class="why-us mt-sm-4" style="padding: 100px">
       <div class="row">
-        <div class="col-6">
-          <img src="./assets/img/img_service.png" />
+        <div class="col-12 col-md-6">
+          <img class="img-why-us" src="./assets/img/img_service.png" />
         </div>
-        <div class="col-6" class="img">
+        <div class="col-12 col-md-6 mt-sm-2" class="img">
           <h4 class="fw-bold">Best Car Rental for any kind of trip in (Lokasimu)!</h4>
           <p>
             Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga
@@ -122,11 +148,11 @@
     </section>
     <!-- section testimonial -->
     <section class="testimonial" style="padding: 50px">
-      <h3 class="fw-bold" style="padding-bottom: 10px">Why Us?</h3>
-      <p style="padding-bottom: 10px">Mengapa harus pilih Binar Car Rental?</p>
+      <h3 class="fw-bold text-sm-center text-md-start" style="padding-bottom: 10px">Why Us?</h3>
+      <p class="text-sm-center text-md-start" style="padding-bottom: 10px">Mengapa harus pilih Binar Car Rental?</p>
       <div class="row">
-        <div class="col">
-          <div class="card">
+        <div class="col-12 col-md mb-sm-4">
+          <div class="card-testimonial card">
             <div class="card-body">
               <i
                 style="color:#F9CC00"
@@ -140,8 +166,8 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
+        <div class="col-12 col-md mb-sm-4">
+          <div class="card-testimonial card">
             <div class="card-body">
               <i
                 style="color: #FA2C5A"
@@ -155,8 +181,8 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
+        <div class="col-12 col-md mb-sm-4">
+          <div class="card-testimonial card">
             <div class="card-body">
               <i
                 style="
@@ -174,8 +200,8 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
+        <div class="col-12 col-md mb-sm-4">
+          <div class="card-testimonial card">
             <div class="card-body">
               <i
                 style="
@@ -204,7 +230,7 @@
       <!-- Carousel wrapper -->
       <div
         id="carouselMultiItemExample"
-        class="carousel slide carousel-dark text-center"
+        class="carousel-testimonial carousel slide carousel-dark text-center"
         data-mdb-ride="carousel"
       >
      
@@ -214,7 +240,7 @@
           <div class="carousel-item active">
             <div class="container">
               <div class="row">
-                <div class="col-4">
+                <div class="col-6 col-md-4">
                   <img
                     class="rounded-circle shadow-1-strong mb-4"
                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
@@ -471,7 +497,7 @@
         </div>
         <!-- Inner -->
            <!-- Controls -->
-           <div class="d-flex justify-content-center mb-4">
+           <div class="controls-carausel d-flex justify-content-center mb-4">
             <button
               class="carousel-control-prev position-relative"
               type="button"
@@ -496,24 +522,25 @@
     </section>
 
     <!-- section mulai sewa -->
-    <section class="mulai-sewa " style="background-color: #0D28A6; margin: 50px; padding: 100px">
-      <div class="row">
-        <div class="col"></div>
-        <h3 class="fw-bold" style="color: white; text-align: center">Sewa Mobil di (Lokasimu) Sekarang</h3>
-        <p style="color: white; text-align: center; font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <section class="mulai-sewa">
+      <div class="container-fluid">
+        <div class="mulai-sewa-row row">
+          <h3 class="title-mulai-sewa fw-bold">Sewa Mobil di (Lokasimu) Sekarang</h3>
+          <p class="text-mulai-sewa" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+          <button id="" class="btn btn-mulai-sewa" style="background-color: #73ca5c; color: white;"><span class="text-btn-mulai-sewa">Mulai Sewa Mobil</span></button>
       </div>
-        <button class="btn" style="background-color: #73ca5c; color: white; margin-left: 400px;">Mulai Sewa Mobil</button>
     </section>
 
 
     <!-- section faq -->
     <section class="faq" style="padding: 50px">
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-xl-6">
           <h3 class="fw-bold" >Frequently Asked Question</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-xl-6">
           <ul class="list-group">
             <li
               class="list-group-item d-flex justify-content-between align-items-center"
@@ -553,20 +580,20 @@
     <!-- footer -->
     <footer style="padding: 50px;">
       <div class="row">
-        <div class="col-4">
+        <div class="col-12 col-md-4">
           <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
           <p>binarcarrental@gmail.com</p>
           <p>081-233-334-808</p>
         </div>
-        <div class="col-2">
-          <ul style="list-style-type: none;">
+        <div class="col-12 col-md-2">
+          <ul style="padding: 0; list-style-type: none;">
             <li>Our services</li>
             <li>Why Us</li>
             <li>Testimonial</li>
             <li>FAQ</li>
           </ul>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-4">
           <div class="row">
             <div class="col">
               <i class="fa-brands fa-facebook fa-2x" style="color: #0D28A6;"></i>
@@ -585,7 +612,7 @@
             </div>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-12 col-md-2 mt-2">
           <p>Copyright Binar 2022</p>
         </div>
       </div>
