@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: #cfd4ed;
+}
+
+.main {
+  box-sizing: border-box;
+  height: 450px;
+}
+
+li {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.card {
+  box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 16px;
+  width: 268px;
+  height: 196px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.mulai-sewa {
+  width: 1168px;
+  height: 326px;
+  background-color: #0d28a6;
+  margin: 50px;
+  padding: 100px;
+}
+
+.btn-mulai-sewa {
+  color: white;
+  margin-left: 400px;
+}
+
+.title-mulai-sewa {
+  color: white;
+  text-align: center;
+}
+
+.text-mulai-sewa {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+.shape-search {
+  /* padding-bottom: 100px; */
+  position: relative;
+}
+.slider-shape {
+  background-image: url(../img/slider-pattern.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: '';
+  height: 144px;
+  width: 100%;
+  margin-top: -70px;
+}
+.search-inner {
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.08);
+  padding: 36px 40px 42px;
+  position: relative;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  top: -25px;
+}
+.input-group {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 20%;
+}
+.shape-search select,
+.shape-search input {
+  background-color: #f8f8f8;
+  color: #383838;
+  border: none;
+  height: 50px;
+  padding: 0 15px;
+  width: 100%;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  line-height: 1.6;
+}
+.shape-search .input-group i {
+  position: absolute;
+  bottom: 17px;
+  right: 25px;
+}
+.shape-search .input-group button {
+  background-color: #5cb85f;
+  border-radius: 0;
+  height: 50px;
+  padding: 0 15px;
+  color: #ffffff;
+  line-height: 1.3;
+  font-weight: 600;
+  margin-bottom: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    background-color: lightblue;
+    box-sizing: border-box;
+    height: 600px;
+    padding-bottom: 200px;
+  }
+
+  .img-main {
+    width: 430px;
+  }
+
+  .img-why-us {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+
+  .card-testimonial {
+    margin-left: 50px;
+  }
+
+  .mulai-sewa {
+    width: 368px;
+    height: 326px;
+    background-color: #0d28a6;
+    margin: 50px;
+    padding-top: 40px;
+  }
+
+  .title-mulai-sewa {
+    font-size: 22px;
+  }
+
+  .btn-mulai-sewa {
+    margin-left: 10px;
+    width: 130px;
+  }
+
+  .text-btn-mulai-sewa {
+    font-size: 12px;
+  }
+
+  .carousel-testimonial {
+    /* margin-left: 150px; */
+  }
+
+  .controls-carausel {
+    padding-right: 170px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    background-color: lightblue;
+    box-sizing: border-box;
+    height: 600px;
+    padding-bottom: 200px;
+  }
+
+  .img-main {
+    width: 430px;
+  }
+
+  .img-why-us {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+
+  .card-testimonial {
+    margin-left: 50px;
+  }
+
+  .mulai-sewa {
+    width: 368px;
+    height: 326px;
+    background-color: #0d28a6;
+    margin: 50px;
+    padding-top: 40px;
+  }
+
+  .title-mulai-sewa {
+    font-size: 22px;
+  }
+
+  .btn-mulai-sewa {
+    margin-left: 10px;
+    width: 130px;
+  }
+
+  .text-btn-mulai-sewa {
+    font-size: 12px;
+  }
+
+  .carousel-testimonial {
+    margin-left: 150px;
+  }
+
+  .controls-carausel {
+    padding-right: 170px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-brand {
+    margin-left: 40px;
+  }
+  .navbar-nav {
+    margin-right: 40px;
+  }
+}
