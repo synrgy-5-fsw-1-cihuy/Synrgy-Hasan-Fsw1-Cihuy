@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.nav {
+  /* background-color: #cfd4ed; */
+  margin-left: 570;
+}
+
+.main {
+  box-sizing: border-box;
+  height: 450px;
+}
+
+li {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.card {
+  box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 16px;
+  width: 268px;
+  height: 196px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.mulai-sewa {
+  width: 1168px;
+  height: 326px;
+  background-color: #0d28a6;
+  margin: 50px;
+  padding: 100px;
+}
+
+.btn-mulai-sewa {
+  color: white;
+  margin-left: 400px;
+}
+
+.title-mulai-sewa {
+  color: white;
+  text-align: center;
+}
+
+.text-mulai-sewa {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    background-color: lightblue;
+    box-sizing: border-box;
+    height: 600px;
+    padding-bottom: 200px;
+  }
+
+  .img-main {
+    width: 430px;
+  }
+
+  .img-why-us {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+
+  .card-testimonial {
+    margin-left: 50px;
+  }
+
+  .mulai-sewa {
+    width: 368px;
+    height: 326px;
+    background-color: #0d28a6;
+    margin: 50px;
+    padding-top: 40px;
+  }
+
+  .title-mulai-sewa {
+    font-size: 22px;
+  }
+
+  .btn-mulai-sewa {
+    margin-left: 10px;
+    width: 130px;
+  }
+
+  .text-btn-mulai-sewa {
+    font-size: 12px;
+  }
+
+  .carousel-testimonial {
+    /* margin-left: 150px; */
+  }
+
+  .controls-carausel {
+    padding-right: 170px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    background-color: lightblue;
+    box-sizing: border-box;
+    height: 600px;
+    padding-bottom: 200px;
+  }
+
+  .img-main {
+    width: 430px;
+  }
+
+  .img-why-us {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+
+  .card-testimonial {
+    margin-left: 50px;
+  }
+
+  .mulai-sewa {
+    width: 368px;
+    height: 326px;
+    background-color: #0d28a6;
+    margin: 50px;
+    padding-top: 40px;
+  }
+
+  .title-mulai-sewa {
+    font-size: 22px;
+  }
+
+  .btn-mulai-sewa {
+    margin-left: 10px;
+    width: 130px;
+  }
+
+  .text-btn-mulai-sewa {
+    font-size: 12px;
+  }
+
+  .carousel-testimonial {
+    margin-left: 150px;
+  }
+
+  .controls-carausel {
+    padding-right: 170px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-brand {
+    margin-left: 40px;
+  }
+  .navbar-nav {
+    margin-right: 40px;
+  }
+}
